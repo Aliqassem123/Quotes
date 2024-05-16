@@ -1,0 +1,227 @@
+.body-cir{
+    width: 90%;
+}
+.titel{
+    font-size: 70px;
+    color:rgba(174, 11, 10, 0.96);
+    font-family: "Poetsen One", sans-serif;
+}
+.tex{
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.hed span{
+    color: black;
+}
+.im1{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 20%;
+}
+.im2{
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 20%;
+}
+.cr h1{
+    font-family: "Josefin Sans", sans-serif;
+}
+.cr{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: solid rgba(174, 11, 10, 0.96) 3px;
+   ;
+}
+.cr1{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+   ;
+}
+.cr2{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: rgba(174, 11, 10, 0.96);
+    transform:  translate(9%,-50%);
+    position: absolute;
+    top: 50%;
+
+   
+}
+
+.layout{
+    background-color: #fff;
+}
+.red{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+transform: skewy( 160deg);
+background-image: url(p..jpg);
+background-position: 100px;
+background-size:53%;
+}
+.red1{
+   
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    right: 5px;
+transform: skewy( 200deg);
+background-image: url(p..jpg);
+background-position: 100px;
+background-size:30%;
+
+
+}
+
+
+
+.btn{
+    background-color: rgba(174, 11, 10, 0.96) ;
+    color: #fff;
+    width: 30%;
+    
+}
+
+.fr {
+    transform: translateX(0%);
+}
+
+.btn:hover .fr{
+    transform: translateX(-10%);
+}
+.btn:hover{
+    color:rgba(255, 255, 255, 0.96);
+    border: solid 3px rgba(174, 11, 10, 0.96);
+    background-color:rgba(174, 11, 10, 0.96); 
+}
+
+h2{
+    word-break: break-all;
+}
+
+
+
+
+
+
+
+
+
+/**************SVG****************/
+
+path.one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+path.two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.btn:hover path.three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.btn:hover path.one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.btn:hover path.two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+    50% {
+        fill:#000000;
+    }
+    100% {
+        fill: white;
+    }
+}
+
+
+/* @media (max-width: 640px) { 
+    .titel{
+        font-size: 45px;
+    }
+    .cr{
+        width: 80px;
+        height: 110px;
+    }
+    .cr1{
+        width: 90px;
+        height: 90px;
+    }
+    .cr2{
+        width: 100px;
+        height: 100px;
+        transform:  translate(4%,-50%);
+}
+.cr h1{
+    font-size: 95%;
+    font-weight: 400;
+}
+.red{
+    background-size: cover;
+  
+}
+.btn{
+    width: 70%;
+    margin-top: 20px;
+}
+} */
+
+
+
+
+ @media (max-width: 780px) {  
+    .titel{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+   
+    .cr{
+        width: 270px;
+        height: 270px;
+    }
+    .cr1{
+        width: 300px;
+        height: 300px;
+    }
+    .cr2{
+        width: 300px;
+        height: 300px;
+        transform:  translate(9%,-50%);
+}
+.cr h1{
+    font-size: 95%;
+    font-weight: 400;
+}
+.red{
+    background-size: cover;
+    
+}
+.btn{
+    width: 70%;
+    margin-top: 30px;
+}
+} 
